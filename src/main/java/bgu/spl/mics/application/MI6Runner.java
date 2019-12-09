@@ -7,7 +7,7 @@ package bgu.spl.mics.application;
 public class MI6Runner {
     public static void main(String[] args) {
 
-        System.out.println("Hello Jacob!");
+        System.out.println("Hello Jacob and Dean!");
         // TODO Implement this
     }
 }
