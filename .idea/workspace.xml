@@ -2,13 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea7c16e1-45f1-4763-8640-720f88270f73" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/bgu/spl/mics/IntEvent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bgu/spl/mics/FutureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bgu/spl/mics/FutureTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bgu/spl/mics/MessageBrokerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bgu/spl/mics/MessageBrokerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
@@ -99,10 +107,10 @@
     </state>
     <state x="655" y="383" key="com.intellij.ide.util.TipDialog/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1575908210701" />
     <state x="2575" y="383" key="com.intellij.ide.util.TipDialog/0.40.1920.1040/1920.40.1920.1040@1920.40.1920.1040" timestamp="1576042918701" />
-    <state x="769" y="476" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576044240653">
+    <state x="769" y="476" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576056932332">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
-    <state x="769" y="476" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1576044240653" />
+    <state x="769" y="476" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1576056932332" />
     <state x="2689" y="476" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1040/1920.40.1920.1040@1920.40.1920.1040" timestamp="1575921104159" />
   </component>
 </project>
