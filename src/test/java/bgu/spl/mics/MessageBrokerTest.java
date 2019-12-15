@@ -11,49 +11,49 @@ public class MessageBrokerTest {
     MessageBroker msgB2;
 
     @BeforeEach
-    public void setUp() throws Exception{
-        msgB1 =  MessageBrokerImpl.getInstance();
-        msgB2 =  MessageBrokerImpl.getInstance();
+    public void setUp() throws Exception {
+        msgB1 = MessageBrokerImpl.getInstance();
+        msgB2 = MessageBrokerImpl.getInstance();
     }
 
     @Test
-    public void test(){
-        assertNotNull( msgB1);
-        assertNotNull( msgB2);
+    public void test() {
+        assertNotNull(msgB1);
+        assertNotNull(msgB2);
 
     }
 
     @Test
-    public  void subscribeEvent() {
+    public void subscribeEvent() {
         Subscriber s1 = new SimpleSubscriberTest();
-        msgB1.subscribeEvent(IntEventTest.class , s1);
+        msgB1.subscribeEvent(IntEventTest.class, s1);
         assertNotNull(msgB1);
 
         Subscriber s2 = new SimpleSubscriberTest();
-        msgB2.subscribeEvent(IntEventTest.class , s2);
+        msgB2.subscribeEvent(IntEventTest.class, s2);
         assertNotNull(msgB2);
     }
 
     @Test
     public void subscribeBroadcast(Class<? extends Broadcast> type, Subscriber m) {
         Subscriber s1 = new SimpleSubscriberTest();
-        msgB1.subscribeBroadcast(SimpleBroadcastTest.class , s1);
+        msgB1.subscribeBroadcast(SimpleBroadcastTest.class, s1);
         assertNotNull(msgB1);
 
         Subscriber s2 = new SimpleSubscriberTest();
-        msgB2.subscribeBroadcast(SimpleBroadcastTest.class , s2);
+        msgB2.subscribeBroadcast(SimpleBroadcastTest.class, s2);
         assertNotNull(msgB2);
     }
 
     @Test
-    public  void complete() {
+    public void complete() {
         Event<Integer> e1 = new IntEventTest();
-        msgB1.complete(e1 , 5);
-        assertNotNull( msgB1);
+        msgB1.complete(e1, 5);
+        assertNotNull(msgB1);
 
         Event<Integer> e2 = new IntEventTest();
-        msgB1.complete(e2 , 7);
-        assertNotNull( msgB2);
+        msgB1.complete(e2, 7);
+        assertNotNull(msgB2);
 
     }
 
@@ -96,7 +96,7 @@ public class MessageBrokerTest {
 
         msgB1.unregister(s);
         assertNotNull(msgB1);
-        assertNotEquals(msgB1 , msgB2);
+        assertNotEquals(msgB1, msgB2);
     }
 
     @Test

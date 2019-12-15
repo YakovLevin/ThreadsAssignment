@@ -7,12 +7,12 @@ import static org.junit.jupiter.api.Assertions.fail;
 
 public class InventoryTest {
     @BeforeEach
-    public void setUp(){
+    public void setUp() {
 
     }
 
     @Test
-    public void test(){
+    public void test() {
         //TODO: change this test and add more tests :)
         fail("Not a good test");
     }

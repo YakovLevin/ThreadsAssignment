@@ -12,14 +12,14 @@ public class FutureTest {
     private Future<String> futureString;
 
     @BeforeEach
-    public void setUp() throws Exception{
+    public void setUp() throws Exception {
         this.futureInt = new Future<Integer>();
         this.futureString = new Future<String>();
 
     }
 
     @Test
-    public void test(){
+    public void test() {
         futureString.resolve("Completed");
         assertEquals("Completed", futureString.get());
 
@@ -57,7 +57,7 @@ public class FutureTest {
     public void get1() {
         TimeUnit time = TimeUnit.MILLISECONDS;
         Object o = null;
-        o = futureInt.get(3000,time);
+        o = futureInt.get(3000, time);
         assertNull(o);
 
         futureInt.resolve((5));

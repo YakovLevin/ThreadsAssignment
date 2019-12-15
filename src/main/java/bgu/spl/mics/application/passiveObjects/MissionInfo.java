@@ -17,13 +17,13 @@ public class MissionInfo {
         // TODO Implement this
     }
 
-	/**
+    /**
      * Retrieves the name of the mission.
      */
-	public String getMissionName() {
-		// TODO Implement this
-		return null;
-	}
+    public String getMissionName() {
+        // TODO Implement this
+        return null;
+    }
 
     /**
      * Sets the serial agent number.
@@ -32,13 +32,13 @@ public class MissionInfo {
         // TODO Implement this
     }
 
-	/**
+    /**
      * Retrieves the serial agent number.
      */
-	public List<String> getSerialAgentsNumbers() {
-		// TODO Implement this
-		return null;
-	}
+    public List<String> getSerialAgentsNumbers() {
+        // TODO Implement this
+        return null;
+    }
 
     /**
      * Sets the gadget name.
@@ -47,13 +47,13 @@ public class MissionInfo {
         // TODO Implement this
     }
 
-	/**
+    /**
      * Retrieves the gadget name.
      */
-	public String getGadget() {
-		// TODO Implement this
-		return null;
-	}
+    public String getGadget() {
+        // TODO Implement this
+        return null;
+    }
 
     /**
      * Sets the time the mission was issued in milliseconds.
@@ -62,13 +62,13 @@ public class MissionInfo {
         // TODO Implement this
     }
 
-	/**
+    /**
      * Retrieves the time the mission was issued in milliseconds.
      */
-	public int getTimeIssued() {
-		// TODO Implement this
-		return 0;
-	}
+    public int getTimeIssued() {
+        // TODO Implement this
+        return 0;
+    }
 
     /**
      * Sets the time that if it that time passed the mission should be aborted.
@@ -77,13 +77,13 @@ public class MissionInfo {
         // TODO Implement this
     }
 
-	/**
+    /**
      * Retrieves the time that if it that time passed the mission should be aborted.
      */
-	public int getTimeExpired() {
-		// TODO Implement this
-		return 0;
-	}
+    public int getTimeExpired() {
+        // TODO Implement this
+        return 0;
+    }
 
     /**
      * Sets the duration of the mission in time-ticks.
@@ -92,11 +92,11 @@ public class MissionInfo {
         // TODO Implement this
     }
 
-	/**
-	 * Retrieves the duration of the mission in time-ticks.
-	 */
-	public int getDuration() {
-		// TODO Implement this
-		return 0;
-	}
+    /**
+     * Retrieves the duration of the mission in time-ticks.
+     */
+    public int getDuration() {
+        // TODO Implement this
+        return 0;
+    }
 }
