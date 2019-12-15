@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea7c16e1-45f1-4763-8640-720f88270f73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bgu/spl/mics/EvenEventTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bgu/spl/mics/IntEventTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bgu/spl/mics/SimpleBroadcastTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/bgu/spl/mics/SimpleSubscriberTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bgu/spl/mics/IntEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bgu/spl/mics/EvenEventTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bgu/spl/mics/FutureTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bgu/spl/mics/FutureTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bgu/spl/mics/MessageBrokerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bgu/spl/mics/MessageBrokerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,11 +126,11 @@
     </state>
     <state x="655" y="383" key="com.intellij.ide.util.TipDialog/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1576408980475" />
     <state x="2575" y="383" key="com.intellij.ide.util.TipDialog/0.40.1920.1040/1920.40.1920.1040@1920.40.1920.1040" timestamp="1576042918701" />
-    <state x="769" y="476" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576408983542">
+    <state x="769" y="476" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576410064850">
       <screen x="0" y="40" width="1920" height="1040" />
     </state>
     <state x="513" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1280.680@0.40.1280.680" timestamp="1576059484713" />
-    <state x="769" y="476" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1576408983542" />
+    <state x="769" y="476" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1040/1920.40.1920.1040@0.40.1920.1040" timestamp="1576410064850" />
     <state x="2689" y="476" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.40.1920.1040/1920.40.1920.1040@1920.40.1920.1040" timestamp="1575921104159" />
     <state x="702" y="189" key="refactoring.ChangeSignatureDialog" timestamp="1576252252502">
       <screen x="0" y="40" width="1920" height="1040" />

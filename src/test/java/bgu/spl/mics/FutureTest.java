@@ -36,8 +36,8 @@ public class FutureTest {
         futureInt.resolve(5);
         assertEquals(5, futureInt.get());
 
-        futureString.resolve("Harry Potter");
-        assertEquals("Harry Potter", futureString.get());
+        futureString.resolve("Completed");
+        assertEquals("Completed", futureString.get());
     }
 
     @Test

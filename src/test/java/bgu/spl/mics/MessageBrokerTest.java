@@ -11,13 +11,15 @@ public class MessageBrokerTest {
     MessageBroker msgB2;
 
     @BeforeEach
-    public void setUp(){
+    public void setUp() throws Exception{
         msgB1 =  MessageBrokerImpl.getInstance();
         msgB2 =  MessageBrokerImpl.getInstance();
     }
 
     @Test
     public void test(){
+        assertNotNull( msgB1);
+        assertNotNull( msgB2);
 
     }
 
@@ -25,11 +27,22 @@ public class MessageBrokerTest {
     public  void subscribeEvent() {
         Subscriber s1 = new SimpleSubscriberTest();
         msgB1.subscribeEvent(IntEventTest.class , s1);
+        assertNotNull(msgB1);
+
+        Subscriber s2 = new SimpleSubscriberTest();
+        msgB2.subscribeEvent(IntEventTest.class , s2);
+        assertNotNull(msgB2);
     }
 
     @Test
     public void subscribeBroadcast(Class<? extends Broadcast> type, Subscriber m) {
+        Subscriber s1 = new SimpleSubscriberTest();
+        msgB1.subscribeBroadcast(SimpleBroadcastTest.class , s1);
+        assertNotNull(msgB1);
 
+        Subscriber s2 = new SimpleSubscriberTest();
+        msgB2.subscribeBroadcast(SimpleBroadcastTest.class , s2);
+        assertNotNull(msgB2);
     }
 
     @Test
@@ -58,8 +71,9 @@ public class MessageBrokerTest {
 
     @Test
     public void sendEvent() {
-        Future<Integer> futureInteger;
-        msgB1.sendEvent(new IntEvent(5));
+        assertNotNull(msgB1.sendEvent(new IntEventTest()));
+        assertNotNull(msgB2.sendEvent(new IntEventTest()));
+
     }
 
     @Test
