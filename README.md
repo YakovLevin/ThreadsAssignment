@@ -1,2 +1,4 @@
-# assignment2
- The second project of the SPL course.
+# Threads Assignment
+The second assignment of the System Programming course.
+Its main focus is using and running threads concurrently.
+ 
